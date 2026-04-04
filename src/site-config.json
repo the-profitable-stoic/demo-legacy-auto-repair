@@ -1,0 +1,608 @@
+{
+  "business": {
+    "name": "Legacy Auto Repair",
+    "phone": "555-aut-r94",
+    "category": "auto-repair",
+    "city": "Memphis",
+    "state": "TN"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-repair-heritage-craft",
+      "categoryGroup": "auto-repair",
+      "name": "Heritage Craft",
+      "recipeFile": "auto-repair/heritage-craft.astro",
+      "colors": {
+        "primary": "#6B4A4A",
+        "primaryDark": "#402c2c",
+        "primaryLight": "#cbc0c0",
+        "secondary": "#5b3f3f",
+        "accent": "#6B4A4A",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5b3f3f",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "auto-repair/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Trusted Auto Care in Memphis",
+      "heroSubline": "Honest repairs for every make and model. Serving Memphis drivers since 2011 with fair pricing and reliable service.",
+      "aboutTitle": "Our Story",
+      "aboutText": [
+        "Legacy Auto Repair opened its doors in 2011 with three mechanics and a commitment to treating customers right. What started as a small shop in Midtown Memphis has grown into a 20-person team serving the entire metro area.",
+        "We believe in fixing cars properly the first time. Our technicians use manufacturer-grade diagnostics and only recommend necessary repairs—no upsells, no pressure.",
+        "Memphis roads take a toll on vehicles. We're proud to support local charities that provide transportation assistance to families in need."
+      ],
+      "valueProps": [
+        {
+          "title": "Same-Day Diagnostics",
+          "description": "Most vehicles get a full diagnosis within 2 hours—no waiting days for answers."
+        },
+        {
+          "title": "Loaner Cars Available",
+          "description": "Free loaner vehicles for qualifying repairs over 4 hours."
+        },
+        {
+          "title": "Memphis Weather Expertise",
+          "description": "Specialized knowledge addressing humidity-related corrosion and summer overheating risks."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "Written estimates before any work begins, with no hidden fees."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Repair Today",
+      "ctaSubline": "Call or book online for same-week appointments at our Memphis shop."
+    },
+    "services": [
+      {
+        "slug": "brake-repair",
+        "name": "Brake Repair",
+        "shortDescription": "Complete brake inspections and repairs for all vehicle types.",
+        "description": "Memphis' stop-and-go traffic puts extra strain on braking systems. We perform comprehensive brake services including pad replacements, rotor resurfacing, and fluid flushes.\n\nOur technicians measure wear patterns on all four wheels—not just the noisy ones. For Memphis drivers dealing with hilly neighborhoods like Evergreen or Central Gardens, we test brake performance on inclines during every service.\n\nCommon signs you need brake service: squeaking noises, longer stopping distances, or vibration when braking. We'll explain exactly what needs replacement and why.",
+        "process": [
+          "Step 1: Road test and visual inspection of all brake components",
+          "Step 2: Measurement of pad thickness and rotor condition",
+          "Step 3: Hydraulic system pressure test",
+          "Step 4: Post-repair test drive to verify performance"
+        ],
+        "benefits": [
+          "Reduced risk of brake failure in heavy traffic",
+          "Smoother stops on Memphis' uneven roads",
+          "Extended lifespan of rotors through proper maintenance",
+          "Improved wet-weather braking performance"
+        ],
+        "faq": [
+          {
+            "question": "How often should Memphis drivers get brake inspections?",
+            "answer": "We recommend every 12 months or 12,000 miles—whichever comes first. The combination of summer heat and winter moisture accelerates wear."
+          },
+          {
+            "question": "Do you work on anti-lock brake systems?",
+            "answer": "Yes, our shop is equipped with ABS diagnostic tools required for modern vehicles."
+          }
+        ]
+      },
+      {
+        "slug": "transmission-service",
+        "name": "Transmission Service",
+        "shortDescription": "Preventative maintenance and repairs for automatic and manual transmissions.",
+        "description": "Memphis' mix of highway driving and city streets demands reliable transmission performance. We offer complete transmission services from fluid changes to full rebuilds.\n\nFor vehicles frequently crossing the Mississippi River via I-40 or I-55, we pay special attention to cooling system performance—overheating causes 90% of premature transmission failures. Our flush service replaces 100% of old fluid, not just what's in the pan.\n\nSigns of transmission trouble include delayed shifting, slipping gears, or fluid leaks. Catching problems early often prevents costly rebuilds. We'll provide honest recommendations based on your vehicle's condition.",
+        "process": [
+          "Step 1: Diagnostic scan for error codes and performance data",
+          "Step 2: Fluid condition analysis and pressure tests",
+          "Step 3: Road test to evaluate shift patterns",
+          "Step 4: Service or repair with OEM-approved fluids"
+        ],
+        "benefits": [
+          "Smoother acceleration from Memphis stoplights",
+          "Reduced risk of highway breakdowns",
+          "Improved fuel efficiency on longer trips",
+          "Extended transmission lifespan"
+        ],
+        "faq": [
+          {
+            "question": "How often should transmission fluid be changed?",
+            "answer": "Most manufacturers recommend every 30,000-60,000 miles, but Memphis' hot summers may require more frequent changes."
+          },
+          {
+            "question": "Can you fix transmission leaks without a full rebuild?",
+            "answer": "Many leaks stem from worn seals or gaskets that can be replaced individually—we'll always explore the most cost-effective solution first."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-diagnostics",
+        "name": "Electrical Diagnostics",
+        "shortDescription": "Advanced troubleshooting for electrical and computer system issues.",
+        "description": "Modern vehicles contain more computing power than the Apollo spacecraft. Our ASE-certified technicians use factory-grade scanners to diagnose electrical gremlins that stump other shops.\n\nMemphis' humid climate causes unique electrical challenges—corroded connectors, moisture damage, and battery drain. We specialize in tracking down intermittent problems that come and go. Common issues we resolve include dashboard warning lights, power window failures, and starting system problems.\n\nFor hybrid and electric vehicles, we perform high-voltage system safety checks before any diagnostic work begins. Your safety and our technicians' safety always come first.",
+        "process": [
+          "Step 1: Full system scan with manufacturer-specific software",
+          "Step 2: Voltage drop tests on critical circuits",
+          "Step 3: Component-level testing of suspected problem areas",
+          "Step 4: Repair verification through extended road testing"
+        ],
+        "benefits": [
+          "Accurate diagnosis saves money on unnecessary parts",
+          "Prevention of roadside electrical failures",
+          "Extended battery life through proper charging checks",
+          "Faster repairs with our direct-to-factory diagnostic tools"
+        ],
+        "faq": [
+          {
+            "question": "Why does my check engine light keep coming back after repairs?",
+            "answer": "This often indicates an underlying issue wasn't fully resolved. We trace problems to their root cause rather than just clearing codes."
+          },
+          {
+            "question": "Can you fix electrical issues in older Memphis vehicles?",
+            "answer": "Absolutely—we maintain vintage diagnostic equipment for pre-1996 vehicles that don't have OBD-II ports."
+          }
+        ]
+      },
+      {
+        "slug": "suspension-repair",
+        "name": "Suspension Repair",
+        "shortDescription": "Shock, strut, and alignment services for smoother rides.",
+        "description": "Memphis potholes and railroad crossings wreak havoc on suspensions. We restore ride quality with precision alignment and component replacements.\n\nOur suspension services start with measuring ride height and checking all bushings and joints. For vehicles frequently parked on Memphis' sloped streets, we perform special angle compensation during alignments. Common repairs include ball joint replacements, shock absorber installations, and steering linkage fixes.\n\nNotice any of these warning signs? Clunking noises over bumps, uneven tire wear, or the car pulling to one side. Left unchecked, suspension problems lead to premature tire wear and unsafe handling—especially during Mid-South rainstorms.",
+        "process": [
+          "Step 1: Complete suspension inspection with weight measurements",
+          "Step 2: Road test to identify noise sources",
+          "Step 3: Component replacement using OEM-grade parts",
+          "Step 4: Laser alignment with Memphis road conditions in mind"
+        ],
+        "benefits": [
+          "Improved handling on Memphis' winding parkways",
+          "Reduced tire replacement costs",
+          "Smoother ride over railroad crossings",
+          "Better control in emergency maneuvers"
+        ],
+        "faq": [
+          {
+            "question": "How often should alignments be checked?",
+            "answer": "After hitting any major pothole, or at least annually—Memphis roads require more frequent checks than flat cities."
+          },
+          {
+            "question": "Do you work on lifted trucks?",
+            "answer": "Yes, we have alignment equipment capable of handling trucks with up to 6-inch lifts common in the area."
+          }
+        ]
+      },
+      {
+        "slug": "ac-repair",
+        "name": "AC Repair",
+        "shortDescription": "Cooling system repairs to beat Memphis summers.",
+        "description": "When Memphis hits 95° with 90% humidity, a working AC system isn't optional. We service all air conditioning components from compressors to evaporators.\n\nOur AC specialists start by measuring system pressure and airflow at all vents. We pinpoint leaks using ultraviolet dye rather than just topping off refrigerant. Common repairs include condenser replacements (damaged by road debris), compressor clutch fixes, and cabin filter changes.\n\nDon't wait until July to service your AC—spring maintenance prevents most summer breakdowns. We'll show you exactly which components need attention and which can wait, with no pressure to overspend.",
+        "process": [
+          "Step 1: Performance test with temperature probes",
+          "Step 2: Leak detection using electronic sniffers",
+          "Step 3: Component repair or replacement",
+          "Step 4: Final charge with environmentally-approved refrigerants"
+        ],
+        "benefits": [
+          "Faster cooling in Memphis traffic",
+          "Reduced strain on your engine",
+          "Improved air quality inside the cabin",
+          "Longer component life through proper maintenance"
+        ],
+        "faq": [
+          {
+            "question": "Why does my AC work sometimes but not others?",
+            "answer": "This usually indicates an electrical fault or intermittent refrigerant leak—we specialize in tracking these tricky issues."
+          },
+          {
+            "question": "Can you convert older systems to new refrigerant?",
+            "answer": "Yes, we properly retrofit R12 systems to R134a following EPA guidelines, including all necessary component upgrades."
+          }
+        ]
+      },
+      {
+        "slug": "pre-purchase-inspections",
+        "name": "Pre-Purchase Inspections",
+        "shortDescription": "Comprehensive used vehicle evaluations before you buy.",
+        "description": "Memphis' used car market offers great deals—and some hidden problems. Our 150-point inspections help you avoid costly surprises.\n\nWe go beyond basic checks to examine flood damage indicators (critical in our river city), frame straightness, and engine computer history. For trucks frequently used on Mississippi Delta farms, we pay special attention to undercarriage corrosion. Our written reports include repair estimates so you can negotiate intelligently.\n\nInspections typically take 90 minutes and can be done at our shop or the seller's location. We'll explain our findings in plain English—no confusing jargon—so you can make an informed decision.",
+        "process": [
+          "Step 1: VIN check for accident history and title issues",
+          "Step 2: Complete mechanical inspection from bumper to bumper",
+          "Step 3: Road test including highway speeds",
+          "Step 4: Written report with photos and repair estimates"
+        ],
+        "benefits": [
+          "Avoid buying someone else's problem vehicle",
+          "Negotiation leverage with documented issues",
+          "Peace of mind about major systems",
+          "Expert assessment of repair costs"
+        ],
+        "faq": [
+          {
+            "question": "Can you inspect cars at dealerships?",
+            "answer": "Yes, we frequently inspect vehicles at Memphis-area dealerships—just arrange access with the seller first."
+          },
+          {
+            "question": "Do you check for flood damage specifically?",
+            "answer": "Absolutely—we know all the hidden indicators Memphis flood cars exhibit, including water lines in unusual places."
+          }
+        ]
+      },
+      {
+        "slug": "routine-maintenance",
+        "name": "Routine Maintenance",
+        "shortDescription": "Factory-scheduled service to keep your vehicle running right.",
+        "description": "Memphis drivers log more miles than average commuting across our spread-out metro area. Our maintenance services follow manufacturer intervals while accounting for local conditions.\n\nWe don't just change oil—our 30,000/60,000/90,000 mile services include thorough inspections of all critical systems. For vehicles parked outdoors in Memphis' heat, we pay special attention to rubber components and fluid breakdown. Our maintenance packages include multi-point inspections with digital photos of any concerning wear.\n\nKeeping up with maintenance prevents 80% of roadside breakdowns. We'll help you prioritize services based on your driving habits and vehicle age—no cookie-cutter recommendations.",
+        "process": [
+          "Step 1: Review service manual for your specific model",
+          "Step 2: Complete all scheduled maintenance items",
+          "Step 3: Inspection of wear items beyond the standard list",
+          "Step 4: Fluid analysis to catch problems early"
+        ],
+        "benefits": [
+          "Fewer unexpected repair bills",
+          "Better resale value with documented care",
+          "Optimized service intervals for your driving",
+          "Early detection of developing issues"
+        ],
+        "faq": [
+          {
+            "question": "How often should Memphis drivers change oil?",
+            "answer": "Every 5,000 miles for conventional oil, 7,500 for synthetic—our hot summers break down oil faster than cooler climates."
+          },
+          {
+            "question": "Do you service European imports?",
+            "answer": "Yes, we have factory-grade tools for BMW, Mercedes, and Volvo models common in East Memphis neighborhoods."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Transmission flush",
+        "text": "Legacy diagnosed my transmission hesitation that two other shops couldn't fix. Turns out it just needed a proper fluid exchange—not the $2,800 rebuild others quoted. Their technician showed me the dirty fluid comparison and explained exactly how the flush process works. My Silverado shifts like new again.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Janelle K.",
+        "rating": 5,
+        "service": "Brake repair",
+        "text": "After my brakes started grinding near Overton Park, Legacy got me in same-day. They replaced pads and resurfaced rotors for half what the dealership wanted. What impressed me most was how they demonstrated the wear with measurements—no guessing. Loaner car was spotless too.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Robert W.",
+        "rating": 5,
+        "service": "Pre-purchase inspection",
+        "text": "The inspection saved me from buying a flood-damaged truck advertised as 'clean.' The tech found water lines behind the dash and corrosion in the ECU connectors I never would've spotted. Detailed report helped me negotiate $3,500 off a better vehicle elsewhere.",
+        "date": "2025-04-02"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 4,
+        "service": "AC repair",
+        "text": "Fixed my AC before Memphis summer hit full force. They found a leaking condenser (probably from highway debris) and replaced it same-day. Only reason not 5 stars is the waiting area could use more seating during busy times.",
+        "date": "2025-05-18"
+      },
+      {
+        "name": "Derrick S.",
+        "rating": 5,
+        "service": "Electrical diagnostics",
+        "text": "My Tahoe's power windows stopped working intermittently—Legacy traced it to a corroded ground connection near the door hinge. Fixed in under an hour when other shops wanted to replace the whole switch assembly. Honest work at honest prices.",
+        "date": "2025-01-09"
+      },
+      {
+        "name": "Angela P.",
+        "rating": 5,
+        "service": "Routine maintenance",
+        "text": "Been taking my Camry here for 5 years. They always remind me when service is due without pushing unnecessary extras. Last visit they caught a cracked engine mount during the oil change—probably saved me from bigger problems down the road.",
+        "date": "2025-06-22"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Memphis Auto Repair | Legacy Auto Repair",
+        "description": "Honest auto repair services in Memphis, TN. Brakes, transmission, AC, and diagnostics from experienced local mechanics."
+      },
+      "about": {
+        "title": "About Legacy Auto Repair | Memphis Mechanics",
+        "description": "Learn about our Memphis auto repair shop's history, values, and commitment to honest vehicle service since 2011."
+      },
+      "services": {
+        "title": "Auto Repair Services in Memphis | Legacy Auto",
+        "description": "Complete auto repair services for Memphis drivers including brakes, transmission, electrical, and AC systems."
+      },
+      "contact": {
+        "title": "Contact Legacy Auto Repair | Memphis Shop",
+        "description": "Schedule auto repair in Memphis. Call or visit our shop for same-week appointments and honest diagnostics."
+      },
+      "reviews": {
+        "title": "Legacy Auto Repair Reviews | Memphis, TN",
+        "description": "Read verified customer reviews of Legacy Auto Repair's brake, transmission, and diagnostic services in Memphis."
+      },
+      "service-areas": {
+        "title": "Memphis Auto Repair Service Areas | Legacy Auto",
+        "description": "Legacy Auto Repair serves Memphis and surrounding communities with reliable vehicle maintenance and repairs."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Memphis",
+        "slug": "memphis-tn",
+        "state": "TN",
+        "content": "Legacy Auto Repair is proud to serve the Memphis community with top-notch auto repair services. Whether you need routine maintenance, brake repairs, or engine diagnostics, our skilled technicians are here to help. We understand the importance of keeping your vehicle running smoothly in a bustling city like Memphis, where reliable transportation is key to your daily life.\n\nOur shop is equipped with the latest tools and technology to handle all makes and models. From oil changes to complex transmission repairs, we provide honest and transparent service to ensure your car stays on the road. Trust Legacy Auto Repair for all your automotive needs in Memphis.",
+        "localContext": "Memphis is known for its vibrant music scene, historic landmarks, and bustling downtown area.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Germantown",
+          "Collierville"
+        ]
+      },
+      {
+        "city": "Bartlett",
+        "slug": "bartlett-tn",
+        "state": "TN",
+        "content": "Legacy Auto Repair is your trusted auto service provider in Bartlett, TN. Our team is dedicated to delivering exceptional care for your vehicle, whether it's a quick tune-up or a major repair. We know how much Bartlett residents rely on their cars for commuting and family activities, and we’re here to keep them running safely.\n\nWith years of experience, our technicians can diagnose and fix any issue your vehicle may have. We offer a range of services, including brake inspections, tire rotations, and electrical system checks. Visit Legacy Auto Repair in Bartlett for reliable and affordable auto care.",
+        "localContext": "Bartlett is a family-friendly suburb with excellent schools and parks.",
+        "nearbyAreas": [
+          "Memphis",
+          "Lakeland",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Germantown",
+        "slug": "germantown-tn",
+        "state": "TN",
+        "content": "At Legacy Auto Repair, we’re committed to providing Germantown residents with high-quality auto repair services. Our team understands the unique needs of drivers in this upscale community, where performance and reliability are top priorities. Whether you drive a luxury sedan or a family SUV, we have the expertise to keep it in peak condition.\n\nFrom routine maintenance to advanced diagnostics, we use state-of-the-art equipment to ensure your vehicle receives the best care possible. Trust Legacy Auto Repair in Germantown for honest, professional service that you can count on.",
+        "localContext": "Germantown is known for its affluent neighborhoods, top-rated schools, and beautiful green spaces.",
+        "nearbyAreas": [
+          "Memphis",
+          "Collierville",
+          "Bartlett"
+        ]
+      },
+      {
+        "city": "Collierville",
+        "slug": "collierville-tn",
+        "state": "TN",
+        "content": "Legacy Auto Repair is proud to serve the Collierville community with reliable and professional auto repair services. Whether you need an oil change, brake service, or engine repair, our skilled technicians are here to help. We understand how important your vehicle is to your daily life in this growing suburban area.\n\nOur shop is equipped to handle all types of repairs, from minor fixes to major overhauls. We prioritize customer satisfaction and transparency, ensuring you leave our shop with peace of mind. Visit Legacy Auto Repair in Collierville for all your automotive needs.",
+        "localContext": "Collierville is a charming town with a historic downtown and strong sense of community.",
+        "nearbyAreas": [
+          "Germantown",
+          "Memphis",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tn",
+        "state": "TN",
+        "content": "Legacy Auto Repair is your go-to auto service provider in Arlington, TN. Our team is dedicated to keeping your vehicle in top shape, whether you need routine maintenance or complex repairs. We know Arlington residents value their time and depend on their cars for work and leisure, and we’re here to ensure they run smoothly.\n\nWith a focus on quality and customer service, we offer a wide range of services, including tire rotations, battery checks, and suspension repairs. Trust Legacy Auto Repair in Arlington for dependable and affordable auto care.",
+        "localContext": "Arlington is a fast-growing community with a mix of rural charm and modern amenities.",
+        "nearbyAreas": [
+          "Bartlett",
+          "Lakeland",
+          "Collierville"
+        ]
+      },
+      {
+        "city": "Lakeland",
+        "slug": "lakeland-tn",
+        "state": "TN",
+        "content": "Legacy Auto Repair is proud to serve the Lakeland community with expert auto repair services. Whether you need a simple oil change or a major engine repair, our team is here to help. We understand the importance of reliable transportation in this peaceful lakeside community.\n\nOur technicians use the latest tools and technology to diagnose and fix any issue your vehicle may have. From brake services to electrical system checks, we provide comprehensive care to keep your car running smoothly. Visit Legacy Auto Repair in Lakeland for trusted and professional service.",
+        "localContext": "Lakeland is known for its scenic lakes, outdoor activities, and family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Arlington",
+          "Bartlett",
+          "Memphis"
+        ]
+      },
+      {
+        "city": "Millington",
+        "slug": "millington-tn",
+        "state": "TN",
+        "content": "Legacy Auto Repair is your trusted auto service provider in Millington, TN. Our team is dedicated to delivering exceptional care for your vehicle, whether it's a quick tune-up or a major repair. We know how much Millington residents rely on their cars for commuting and family activities, and we’re here to keep them running safely.\n\nWith years of experience, our technicians can diagnose and fix any issue your vehicle may have. We offer a range of services, including brake inspections, tire rotations, and electrical system checks. Visit Legacy Auto Repair in Millington for reliable and affordable auto care.",
+        "localContext": "Millington is a small town with a strong military presence due to its proximity to Naval Support Activity Mid-South.",
+        "nearbyAreas": [
+          "Memphis",
+          "Bartlett",
+          "Arlington"
+        ]
+      },
+      {
+        "city": "Cordova",
+        "slug": "cordova-tn",
+        "state": "TN",
+        "content": "At Legacy Auto Repair, we’re committed to providing Cordova residents with high-quality auto repair services. Our team understands the unique needs of drivers in this bustling suburb, where reliability and efficiency are key. Whether you drive a compact car or a full-size truck, we have the expertise to keep it in top condition.\n\nFrom routine maintenance to advanced diagnostics, we use state-of-the-art equipment to ensure your vehicle receives the best care possible. Trust Legacy Auto Repair in Cordova for honest, professional service that you can count on.",
+        "localContext": "Cordova is a vibrant suburb with a mix of residential areas, shopping centers, and dining options.",
+        "nearbyAreas": [
+          "Memphis",
+          "Bartlett",
+          "Germantown"
+        ]
+      },
+      {
+        "city": "Olive Branch",
+        "slug": "olive-branch-ms",
+        "state": "MS",
+        "content": "Legacy Auto Repair is proud to extend our services to the Olive Branch, MS community. Whether you need routine maintenance or major repairs, our skilled technicians are here to help. We understand the importance of keeping your vehicle reliable for commuting and family activities in this growing city.\n\nOur shop is equipped to handle all types of repairs, from minor fixes to major overhauls. We prioritize customer satisfaction and transparency, ensuring you leave our shop with peace of mind. Visit Legacy Auto Repair in Olive Branch for all your automotive needs.",
+        "localContext": "Olive Branch is a fast-growing city with a mix of suburban charm and modern amenities.",
+        "nearbyAreas": [
+          "Memphis",
+          "Southaven",
+          "Hernando"
+        ]
+      },
+      {
+        "city": "Southaven",
+        "slug": "southaven-ms",
+        "state": "MS",
+        "content": "Legacy Auto Repair is your go-to auto service provider in Southaven, MS. Our team is dedicated to keeping your vehicle in top shape, whether you need routine maintenance or complex repairs. We know Southaven residents value their time and depend on their cars for work and leisure, and we’re here to ensure they run smoothly.\n\nWith a focus on quality and customer service, we offer a wide range of services, including tire rotations, battery checks, and suspension repairs. Trust Legacy Auto Repair in Southaven for dependable and affordable auto care.",
+        "localContext": "Southaven is a bustling suburb with easy access to Memphis and a variety of shopping and dining options.",
+        "nearbyAreas": [
+          "Memphis",
+          "Olive Branch",
+          "Horn Lake"
+        ]
+      },
+      {
+        "city": "Hernando",
+        "slug": "hernando-ms",
+        "state": "MS",
+        "content": "Legacy Auto Repair is proud to serve the Hernando community with expert auto repair services. Whether you need a simple oil change or a major engine repair, our team is here to help. We understand the importance of reliable transportation in this historic and charming town.\n\nOur technicians use the latest tools and technology to diagnose and fix any issue your vehicle may have. From brake services to electrical system checks, we provide comprehensive care to keep your car running smoothly. Visit Legacy Auto Repair in Hernando for trusted and professional service.",
+        "localContext": "Hernando is known for its historic downtown, friendly community, and scenic surroundings.",
+        "nearbyAreas": [
+          "Olive Branch",
+          "Southaven",
+          "Memphis"
+        ]
+      },
+      {
+        "city": "Horn Lake",
+        "slug": "horn-lake-ms",
+        "state": "MS",
+        "content": "Legacy Auto Repair is your trusted auto service provider in Horn Lake, MS. Our team is dedicated to delivering exceptional care for your vehicle, whether it's a quick tune-up or a major repair. We know Horn Lake residents rely on their cars for commuting and family activities, and we’re here to keep them running safely.\n\nWith years of experience, our technicians can diagnose and fix any issue your vehicle may have. We offer a range of services, including brake inspections, tire rotations, and electrical system checks. Visit Legacy Auto Repair in Horn Lake for reliable and affordable auto care.",
+        "localContext": "Horn Lake is a quiet community with easy access to Memphis and plenty of outdoor recreational opportunities.",
+        "nearbyAreas": [
+          "Southaven",
+          "Memphis",
+          "Olive Branch"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "brake-repair": "/images/service-brake-repair.webp",
+      "transmission-service": "/images/service-transmission-service.webp",
+      "electrical-diagnostics": "/images/service-electrical-diagnostics.webp",
+      "suspension-repair": "/images/service-suspension-repair.webp",
+      "ac-repair": "/images/service-ac-repair.webp",
+      "pre-purchase-inspections": "/images/service-pre-purchase-inspections.webp",
+      "routine-maintenance": "/images/service-routine-maintenance.webp"
+    },
+    "servicesResponsive": {
+      "brake-repair": {
+        "src": "/images/service-brake-repair.webp",
+        "srcset": "/images/service-brake-repair-400w.webp 400w, /images/service-brake-repair-800w.webp 800w, /images/service-brake-repair-1200w.webp 1200w, /images/service-brake-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "transmission-service": {
+        "src": "/images/service-transmission-service.webp",
+        "srcset": "/images/service-transmission-service-400w.webp 400w, /images/service-transmission-service-800w.webp 800w, /images/service-transmission-service-1200w.webp 1200w, /images/service-transmission-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-diagnostics": {
+        "src": "/images/service-electrical-diagnostics.webp",
+        "srcset": "/images/service-electrical-diagnostics-400w.webp 400w, /images/service-electrical-diagnostics-800w.webp 800w, /images/service-electrical-diagnostics-1200w.webp 1200w, /images/service-electrical-diagnostics.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "suspension-repair": {
+        "src": "/images/service-suspension-repair.webp",
+        "srcset": "/images/service-suspension-repair-400w.webp 400w, /images/service-suspension-repair-800w.webp 800w, /images/service-suspension-repair-1200w.webp 1200w, /images/service-suspension-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "ac-repair": {
+        "src": "/images/service-ac-repair.webp",
+        "srcset": "/images/service-ac-repair-400w.webp 400w, /images/service-ac-repair-800w.webp 800w, /images/service-ac-repair-1200w.webp 1200w, /images/service-ac-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pre-purchase-inspections": {
+        "src": "/images/service-pre-purchase-inspections.webp",
+        "srcset": "/images/service-pre-purchase-inspections-400w.webp 400w, /images/service-pre-purchase-inspections-800w.webp 800w, /images/service-pre-purchase-inspections-1200w.webp 1200w, /images/service-pre-purchase-inspections.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "routine-maintenance": {
+        "src": "/images/service-routine-maintenance.webp",
+        "srcset": "/images/service-routine-maintenance-400w.webp 400w, /images/service-routine-maintenance-800w.webp 800w, /images/service-routine-maintenance-1200w.webp 1200w, /images/service-routine-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
